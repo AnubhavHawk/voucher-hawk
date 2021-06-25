@@ -1,0 +1,12 @@
+.my-shadow{
+    box-shadow: 2px 0px 10px 2px gainsboro;
+}
+video, img{
+    max-height: 50%;
+    max-width: 50%;
+    min-width: 200px;
+    min-height: 200px;
+}
+img{
+    display: none;
+}

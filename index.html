@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="text-center p-4 shadow-lg my-shadow">
+        <h2>Voucher App</h2>
+    </div>
+    <div class="p-4 text-center">
+        <select id="videoSource" class="form-control"></select>
+        <h1 class="text-success" id="voucher"></h1>
+        <video autoplay></video>
+        <div class="mt-3">
+            <button class="btn btn-primary mr-4" id="captureBtn">Capture Image</button>
+            <button class="btn btn-secondary" id="stop">Stop Camera</button>
+        </div>
+    </div>
+
+    <!-- -----------------Capture screenshot---------- --> 
+    <canvas id="my-canvas" style="display: none;"></canvas>
+    <div class="text-center pt-4">
+        <img id="screenshot-img">
+        <p id="parsedOutput"></p>
+    </div>
+    <footer class="text-center p-3 bg-light">
+        Developed By <i class="text-warning">Anubhav Hawk</i>
+    </footer>
+
+    <script src="myJs.js"></script>
+    
+</body>
+</html>
